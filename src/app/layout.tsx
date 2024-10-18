@@ -24,7 +24,7 @@ const RootLayout = ({
       <body className="flex flex-col min-h-screen">
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="light"
           enableSystem
           disableTransitionOnChange
         >
