@@ -11,6 +11,7 @@ const siteConfig = {
         aboutUs: "/#about-us",
         contactUs: "/#contact-us",
         bookAService: "/#book-a-service",
+        faqsPage: "/faqs",
     },
     socialLinks: {
         facebook: "",

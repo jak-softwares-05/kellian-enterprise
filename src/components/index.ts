@@ -8,6 +8,7 @@ import Statistics from './home/Statistics';
 import Services from './home/Services';
 import VipTreatment from './home/VipTreatment';
 import Testimonials from './home/Testimonials';
+import Faqs from './home/Faqs';
 
 
 
@@ -22,4 +23,5 @@ export {
     Services,
     VipTreatment,
     Testimonials,
+    Faqs,
 }
