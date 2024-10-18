@@ -3,44 +3,9 @@ import Image from 'next/image';
 import { Skeleton } from '@/components/ui/skeleton';
 import { useState, useEffect } from 'react';
 
+
 const MasonryGrid = () => {
-  const images = [
-    "/gallery/img2.jpg",
-    "/gallery/img3.jpg",
-    "/gallery/img4.jpg",
-    "/gallery/img5.jpg",
-    "/gallery/img6.jpg",
-    "/gallery/img7.jpg",
-    "/gallery/img9.jpg",
-    "/gallery/img10.jpg",
-    "/gallery/img11.jpg",
-    "/gallery/img12.jpg",
-    "/gallery/img13.jpg",
-    "/gallery/img14.jpg",
-    "/gallery/img15.jpg",
-    "/gallery/img16.jpg",
-    "/gallery/img17.jpg",
-    "/gallery/P1030783.jpg",
-    "/gallery/P1030785.jpg",
-    "/gallery/P1030788.jpg",
-    "/gallery/P1030789.jpg",
-    "/gallery/P1030790.jpg",
-    "/gallery/P1030791.jpg",
-    "/gallery/P1030793.jpg",
-    "/gallery/P1030794.jpg",
-    "/gallery/P1030801.jpg",
-    "/gallery/P1030803.jpg",
-    "/gallery/P1030804.jpg",
-    "/gallery/P1030806.jpg",
-    "/gallery/P1030807.jpg",
-    "/gallery/P1030808.jpg",
-    "/gallery/P1030810.jpg",
-    "/gallery/P1030811.jpg",
-    "/gallery/P1030812.jpg",
-    "/gallery/P1030813.jpg",
-    "/gallery/P1030815.jpg",
-    "/gallery/P1030817.jpg",
-  ]
+  const images: string[] = [];
 
   const [loaded, setLoaded] = useState(false);
 
