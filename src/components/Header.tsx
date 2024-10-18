@@ -51,7 +51,7 @@ const Header: React.FC = () => {
             className={`fixed top-0 left-0 right-0 z-50 bg-white shadow-md transition-all duration-300 ease-in-out ${isScrolling ? '-translate-y-full' : 'translate-y-0'} dark:bg-black`}
         >
             <div className="px-4 lg:px-32 xl:px-40 flex justify-between items-center">
-                <Link href={siteConfig.links.home} className="flex items-center space-x-2">
+                <Link href={siteConfig.siteLinks.home} className="flex items-center space-x-2 w-10 lg:w-fit">
                     <SiteLogo />
                 </Link>
                 <nav className="hidden lg:flex space-x-20 items-center">
@@ -59,9 +59,9 @@ const Header: React.FC = () => {
                         <NavLink key={name} link={link} name={name} />
                     ))}
                 </nav>
-                <div className='flex items-center justify-center'>
-                    <Button asChild className='hidden lg:block lg:text-lg'>
-                        <Link href={""}>Contact us</Link>
+                <div className='hidden lg:items-center lg:justify-center lg:flex'>
+                    <Button asChild className='lg:text-xl'>
+                        <Link href={""}>Book a service</Link>
                     </Button>
                     <ThemeToggler />
                 </div>
@@ -69,6 +69,7 @@ const Header: React.FC = () => {
                     {isMenuOpen ? <IoClose size={24} /> : <BiMenu size={24} />}
                 </button>
             </div>
+
             {isMenuOpen && (
                 <div className="lg:hidden">
                     <nav className="px-4 py-4 flex flex-col items-center space-y-4 transition-all duration-300 ease-in-out transform origin-top">
@@ -76,7 +77,7 @@ const Header: React.FC = () => {
                             <NavLink key={name} link={link} name={name} />
                         ))}
                         <Button asChild>
-                            <Link href={""}>Contact us</Link>
+                            <Link href={""}>Book a service</Link>
                         </Button>
                     </nav>
                 </div>

@@ -5,11 +5,11 @@ import React from 'react'
 const SiteLogo = () => {
     return (
         <Image
-            src={siteConfig.miniLogoUrl}
+            src={siteConfig.logoUrl}
             alt={`${siteConfig.name}'s Logo`}
             width={80}
             height={80}
-            className="w-auto h-auto"
+            className="w-auto h-auto py-2"
         />
     );
 }
