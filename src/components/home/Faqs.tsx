@@ -13,7 +13,7 @@ import { faqs } from '@/lib/constants';
 
 const Faqs = () => {
     return (
-        <div className='px-5 lg:px-32 flex flex-col lg:flex-row lg:justify-between gap-5 lg:gap-10 py-5 h-[110vh] md:h-[60vh] lg:h-96'>
+        <div className='px-5 lg:px-32 flex flex-col lg:flex-row lg:justify-between gap-5 lg:gap-10 py-5 h-[85vh] md:h-[60vh] lg:h-96'>
             <div className='lg:w-1/2 space-y-5 lg:space-y-10'>
                 <div>
                     <h2 className='text-primary md:text-xl'>FAQ&apos;S</h2>
