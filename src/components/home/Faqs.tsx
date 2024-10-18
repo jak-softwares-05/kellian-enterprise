@@ -13,8 +13,8 @@ import { faqs } from '@/lib/constants';
 
 const Faqs = () => {
     return (
-        <div className='px-5 lg:px-32 flex flex-col lg:flex-row lg:justify-between lg:gap-10 py-5 lg:py-20'>
-            <div className='lg:w-2/5 space-y-2 lg:space-y-10'>
+        <div className='px-5 lg:px-32 flex flex-col lg:flex-row lg:justify-between gap-5 lg:gap-10 py-5 h-[110vh] md:h-[60vh] lg:h-96'>
+            <div className='lg:w-1/2 space-y-5 lg:space-y-10'>
                 <div>
                     <h2 className='text-primary md:text-xl'>FAQ&apos;S</h2>
                     <h3 className='text-customBlue text-2xl md:text-5xl'>
@@ -35,7 +35,7 @@ const Faqs = () => {
                 </Button>
             </div>
 
-            <Accordion type="single" collapsible className='lg:w-3/5'>
+            <Accordion type="single" collapsible className='lg:w-1/2'>
                 {faqs.slice(0, 6).map(({ question, answer }) => (
                     <>
                         <AccordionItem value={question}>
@@ -48,7 +48,7 @@ const Faqs = () => {
                 ))}
             </Accordion>
 
-            <Button asChild variant={"link"} className='p-0 font-semibold text-black hover:underline underline lg:no-underline flex lg:hidden items-center justify-center my-5'>
+            <Button asChild variant={"link"} className='p-0 font-semibold text-black hover:underline underline lg:no-underline flex lg:hidden items-center justify-center'>
                 <Link href={siteConfig.siteLinks.faqsPage}>
                     More FAQ&apos;s
                 </Link>
