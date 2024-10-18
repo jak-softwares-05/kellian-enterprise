@@ -6,7 +6,8 @@ const siteConfig = {
     miniLogoUrl: "",
     siteLinks: {
         home: "/",
-        services: "/#services",
+        servicesSection: "/#services",
+        servicesPage: "/services",
         aboutUs: "/#about-us",
         contactUs: "/#contact-us",
         bookAService: "/#book-a-service",

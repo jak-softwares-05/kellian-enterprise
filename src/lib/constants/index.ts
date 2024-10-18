@@ -9,7 +9,7 @@ const navLinks: T_NavLink[] = [
     },
     {
         name: "SERVICES",
-        link: siteConfig.siteLinks.services,
+        link: siteConfig.siteLinks.servicesSection,
     },
     {
         name: "ABOUT US",
