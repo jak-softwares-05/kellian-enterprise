@@ -1,4 +1,4 @@
-import { T_NavLink, T_Social } from "../types";
+import { T_NavLink, T_Social, T_Statistic } from "../types";
 
 
 const navLinks: T_NavLink[] = [
@@ -41,7 +41,29 @@ const socials: T_Social[] = [
 ];
 
 
+const statistics: T_Statistic[] = [
+    {
+        name: "YEARS OF EXPERIENCE",
+        value: 5,
+    },
+    {
+        name: "TECHNICIANS",
+        value: 20,
+    },
+    {
+        name: "CUSTOMERS",
+        value: 200,
+    },
+    {
+        name: "PROJECTS",
+        value: 350,
+    },
+];
+
+
+
 export {
     navLinks,
     socials,
+    statistics,
 }

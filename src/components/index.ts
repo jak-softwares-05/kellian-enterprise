@@ -4,6 +4,7 @@ import HeroSection from './HeroSection';
 import SiteLogo from './SiteLogo';
 import ThemeToggler from './ThemeToggler';
 import BlackOverlay from './BlackOverlay';
+import Statistics from './Statistics';
 
 
 
@@ -14,4 +15,5 @@ export {
     SiteLogo,
     ThemeToggler,
     BlackOverlay,
+    Statistics,
 }

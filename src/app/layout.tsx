@@ -29,9 +29,9 @@ const RootLayout = ({
           disableTransitionOnChange
         >
           <Header />
-          <main className="flex-grow mt-12 lg:mt-24">
+          <div className="flex-grow mt-12 lg:mt-24">
             {children}
-          </main>
+          </div>
           <Footer />
           <Toaster />
         </ThemeProvider>
