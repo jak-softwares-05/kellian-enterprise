@@ -2,7 +2,7 @@ import { services } from '@/lib/constants';
 import { T_Service } from '@/lib/types';
 import Image from 'next/image';
 import React from 'react'
-import { Button } from './ui/button';
+import { Button } from '../ui/button';
 import Link from 'next/link';
 import { siteConfig } from '@/lib/site-config';
 

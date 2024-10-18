@@ -8,7 +8,7 @@ import { siteConfig } from '@/lib/site-config';
 import { BiMenu } from 'react-icons/bi';
 import { IoClose } from 'react-icons/io5';
 import SiteLogo from './SiteLogo';
-import ThemeToggler from './ThemeToggler';
+import ThemeToggler from './utils/ThemeToggler';
 
 
 const Header: React.FC = () => {

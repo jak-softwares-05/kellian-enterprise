@@ -1,6 +1,6 @@
 import React from 'react'
-import BlackOverlay from './BlackOverlay';
-import { Button } from './ui/button';
+import BlackOverlay from '../core/BlackOverlay';
+import { Button } from '../ui/button';
 import Link from 'next/link';
 import { siteConfig } from '@/lib/site-config';
 

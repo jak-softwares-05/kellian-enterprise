@@ -1,11 +1,11 @@
-import Footer from './Footer';
-import Header from './Header';
-import HeroSection from './HeroSection';
-import SiteLogo from './SiteLogo';
-import ThemeToggler from './ThemeToggler';
-import BlackOverlay from './BlackOverlay';
-import Statistics from './Statistics';
-import Services from './Services';
+import Footer from './core/Footer';
+import Header from './core/Header';
+import HeroSection from './home/HeroSection';
+import SiteLogo from './core/SiteLogo';
+import ThemeToggler from './core/utils/ThemeToggler';
+import BlackOverlay from './core/BlackOverlay';
+import Statistics from './home/Statistics';
+import Services from './home/Services';
 
 
 
