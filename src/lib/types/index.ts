@@ -20,9 +20,15 @@ type T_BasicSomething = {
     description: string,
 }
 
+type T_Faq = {
+    question: string,
+    answer: string,
+}
+
 export type {
     T_NavLink,
     T_Social,
     T_Statistic,
     T_BasicSomething,
+    T_Faq,
 }

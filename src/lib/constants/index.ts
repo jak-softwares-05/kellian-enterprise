@@ -1,5 +1,5 @@
 import { siteConfig } from "../site-config";
-import { T_NavLink, T_BasicSomething, T_Social, T_Statistic } from "../types";
+import { T_NavLink, T_BasicSomething, T_Social, T_Statistic, T_Faq } from "../types";
 
 
 const navLinks: T_NavLink[] = [
@@ -236,6 +236,40 @@ const testimonials: T_BasicSomething[] = [
     },
 ];
 
+const faqs: T_Faq[] = [
+    {
+        question: "When are you usually open and stuff and stuff and more queries1?",
+        answer: "sdlkfjdslkfj",
+    },
+    {
+        question: "When are you usually open and stuff and stuff and more queries2?",
+        answer: "sdlkfjdslkfj",
+    },
+    {
+        question: "When are you usually open and stuff and stuff and more queries3?",
+        answer: "sdlkfjdslkfj",
+    },
+    {
+        question: "When are you usually open and stuff and stuff and more queries4?",
+        answer: "sdlkfjdslkfj",
+    },
+    {
+        question: "When are you usually open and stuff and stuff and more queries5?",
+        answer: "sdlkfjdslkfj",
+    },
+    {
+        question: "When are you usually open and stuff and stuff and more queries6?",
+        answer: "sdlkfjdslkfj",
+    },
+    {
+        question: "When are you usually open and stuff and stuff and more queries7?",
+        answer: "sdlkfjdslkfj",
+    },
+    {
+        question: "When are you usually open and stuff and stuff and more queries8?",
+        answer: "sdlkfjdslkfj",
+    },
+];
 
 export {
     navLinks,
@@ -244,4 +278,5 @@ export {
     services,
     treatments,
     testimonials,
+    faqs,
 }
