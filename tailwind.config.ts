@@ -53,6 +53,9 @@ const config: Config = {
 					'5': 'hsl(var(--chart-5))'
 				}
 			},
+			textColor: {
+				customBlue: '#1B1464',
+			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',

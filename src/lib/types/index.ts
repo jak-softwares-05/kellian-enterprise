@@ -14,9 +14,15 @@ type T_Statistic = {
     value: number,
 }
 
+type T_Service = {
+    imageUrl: string,
+    title: string,
+    description: string,
+}
 
 export type {
     T_NavLink,
     T_Social,
     T_Statistic,
+    T_Service,
 }
