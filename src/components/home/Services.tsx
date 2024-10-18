@@ -1,5 +1,5 @@
 import { services } from '@/lib/constants';
-import { T_Service } from '@/lib/types';
+import { T_BasicSomething } from '@/lib/types';
 import Image from 'next/image';
 import React from 'react'
 import { Button } from '../ui/button';
@@ -37,7 +37,7 @@ const Services = () => {
 }
 
 interface ServiceCardProps {
-    service: T_Service,
+    service: T_BasicSomething,
 }
 
 const ServiceCard: React.FC<ServiceCardProps> = ({
@@ -50,7 +50,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
     } = service;
 
     return (
-        <div className='text-center border-2 border-black rounded-xl px-5 md:px-0 py-5'>
+        <li className='text-center border-2 border-black rounded-xl px-5 md:px-0 py-5'>
             <Image
                 src={imageUrl}
                 alt={description}
@@ -60,7 +60,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
             />
             <h3 className='text-customBlue font-semibold text-xl'>{title}</h3>
             <p>{description}</p>
-        </div>
+        </li>
     );
 
 }

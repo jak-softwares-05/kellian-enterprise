@@ -6,6 +6,7 @@ import ThemeToggler from './core/utils/ThemeToggler';
 import BlackOverlay from './core/BlackOverlay';
 import Statistics from './home/Statistics';
 import Services from './home/Services';
+import VipTreatment from './home/VipTreatment';
 
 
 
@@ -18,4 +19,5 @@ export {
     BlackOverlay,
     Statistics,
     Services,
+    VipTreatment,
 }

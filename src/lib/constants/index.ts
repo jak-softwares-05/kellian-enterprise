@@ -1,5 +1,5 @@
 import { siteConfig } from "../site-config";
-import { T_NavLink, T_Service, T_Social, T_Statistic } from "../types";
+import { T_NavLink, T_BasicSomething, T_Social, T_Statistic } from "../types";
 
 
 const navLinks: T_NavLink[] = [
@@ -61,7 +61,7 @@ const statistics: T_Statistic[] = [
     },
 ];
 
-const services: T_Service[] = [
+const services: T_BasicSomething[] = [
     {
         imageUrl: "/home/services/logo-placeholder.png",
         title: "Diagnostic Services",
@@ -137,8 +137,25 @@ const services: T_Service[] = [
         title: "Exhaust System Repair",
         description: "Comprehensive  diagnostics using advanced tools to detect and resolve underlying issues.",
     },
-]
+];
 
+const treatments: T_BasicSomething[] = [
+    {
+        imageUrl: "/home/treatments/logo-placeholder.png",
+        title: "Expert Care, Every Time",
+        description: "Professionalism is our promise. Our certified technicians bring years of expertise to every service, ensuring your vehicle gets the meticulous attention it deserves.",
+    },
+    {
+        imageUrl: "/home/treatments/logo-placeholder.png",
+        title: "Quality you can trust",
+        description: "We pride ourselves on delivering top-tier, reliable auto care. Using advanced tools and technology, we provide precise repairs and maintenance that keep your vehicle running smoothly and safely.",
+    },
+    {
+        imageUrl: "/home/treatments/logo-placeholder.png",
+        title: "Premium Service, Affordable Prices",
+        description: "Quality car care doesn’t have to break the bank. We offer competitive rates, giving you access to premium automotive services without the high price tag.",
+    },
+]
 
 
 export {
@@ -146,4 +163,5 @@ export {
     socials,
     statistics,
     services,
+    treatments,
 }
