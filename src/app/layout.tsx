@@ -21,7 +21,7 @@ const RootLayout = ({
 }>) => {
   return (
     <html lang="en" className={`${firaSans.className}`}>
-      <body className="flex flex-col min-h-screen mt-16">
+      <body className="flex flex-col min-h-screen">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -29,7 +29,7 @@ const RootLayout = ({
           disableTransitionOnChange
         >
           <Header />
-          <main className="flex-grow">
+          <main className="flex-grow mt-12 lg:mt-24">
             {children}
           </main>
           <Footer />
@@ -39,5 +39,6 @@ const RootLayout = ({
     </html>
   );
 }
+
 
 export default RootLayout;
