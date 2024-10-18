@@ -1,4 +1,4 @@
-import { HeroSection, Services, Statistics, VipTreatment } from "@/components";
+import { HeroSection, Services, Statistics, Testimonials, VipTreatment } from "@/components";
 
 
 const Home = () => {
@@ -10,6 +10,7 @@ const Home = () => {
         <Services />
         <VipTreatment />
       </main>
+      <Testimonials />
     </div>
   );
 }

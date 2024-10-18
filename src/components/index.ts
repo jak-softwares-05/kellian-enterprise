@@ -7,6 +7,7 @@ import BlackOverlay from './core/BlackOverlay';
 import Statistics from './home/Statistics';
 import Services from './home/Services';
 import VipTreatment from './home/VipTreatment';
+import Testimonials from './home/Testimonials';
 
 
 
@@ -20,4 +21,5 @@ export {
     Statistics,
     Services,
     VipTreatment,
+    Testimonials,
 }

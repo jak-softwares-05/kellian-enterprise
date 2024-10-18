@@ -155,7 +155,86 @@ const treatments: T_BasicSomething[] = [
         title: "Premium Service, Affordable Prices",
         description: "Quality car care doesn’t have to break the bank. We offer competitive rates, giving you access to premium automotive services without the high price tag.",
     },
-]
+];
+
+
+const testimonials: T_BasicSomething[] = [
+    {
+        imageUrl: "/home/testimonials/logo-placeholder.png",
+        title: "John Doe",
+        description: "I had an outstanding experience at Kellian! Their team was professional, and my car has never looked better after their detailing service. Highly recommend!",
+    },
+    {
+        imageUrl: "/home/testimonials/logo-placeholder.png",
+        title: "John Doe",
+        description: "I had an outstanding experience at Kellian! Their team was professional, and my car has never looked better after their detailing service. Highly recommend!",
+    },
+    {
+        imageUrl: "/home/testimonials/logo-placeholder.png",
+        title: "John Doe",
+        description: "I had an outstanding experience at Kellian! Their team was professional, and my car has never looked better after their detailing service. Highly recommend!",
+    },
+    {
+        imageUrl: "/home/testimonials/logo-placeholder.png",
+        title: "John Doe",
+        description: "I had an outstanding experience at Kellian! Their team was professional, and my car has never looked better after their detailing service. Highly recommend!",
+    },
+    {
+        imageUrl: "/home/testimonials/logo-placeholder.png",
+        title: "John Doe",
+        description: "I had an outstanding experience at Kellian! Their team was professional, and my car has never looked better after their detailing service. Highly recommend!",
+    },
+    {
+        imageUrl: "/home/testimonials/logo-placeholder.png",
+        title: "John Doe",
+        description: "I had an outstanding experience at Kellian! Their team was professional, and my car has never looked better after their detailing service. Highly recommend!",
+    },
+    {
+        imageUrl: "/home/testimonials/logo-placeholder.png",
+        title: "John Doe",
+        description: "I had an outstanding experience at Kellian! Their team was professional, and my car has never looked better after their detailing service. Highly recommend!",
+    },
+    {
+        imageUrl: "/home/testimonials/logo-placeholder.png",
+        title: "John Doe",
+        description: "I had an outstanding experience at Kellian! Their team was professional, and my car has never looked better after their detailing service. Highly recommend!",
+    },
+    {
+        imageUrl: "/home/testimonials/logo-placeholder.png",
+        title: "John Doe",
+        description: "I had an outstanding experience at Kellian! Their team was professional, and my car has never looked better after their detailing service. Highly recommend!",
+    },
+    {
+        imageUrl: "/home/testimonials/logo-placeholder.png",
+        title: "John Doe",
+        description: "I had an outstanding experience at Kellian! Their team was professional, and my car has never looked better after their detailing service. Highly recommend!",
+    },
+    {
+        imageUrl: "/home/testimonials/logo-placeholder.png",
+        title: "John Doe",
+        description: "I had an outstanding experience at Kellian! Their team was professional, and my car has never looked better after their detailing service. Highly recommend!",
+    },
+    {
+        imageUrl: "/home/testimonials/logo-placeholder.png",
+        title: "John Doe",
+        description: "I had an outstanding experience at Kellian! Their team was professional, and my car has never looked better after their detailing service. Highly recommend!",
+    },
+    {
+        imageUrl: "/home/testimonials/logo-placeholder.png",
+        title: "John Doe",
+        description: "I had an outstanding experience at Kellian! Their team was professional, and my car has never looked better after their detailing service. Highly recommend!",
+    },
+    {
+        imageUrl: "/home/testimonials/logo-placeholder.png",
+        title: "John Doe",
+        description: "I had an outstanding experience at Kellian! Their team was professional, and my car has never looked better after their detailing service. Highly recommend!",
+    },
+    {
+        imageUrl: "/home/testimonials/logo-placeholder.png",
+        title: "John Doe",
+        description: "I had an outstanding experience at Kellian! Their team was professional, and my car has never looked better after their detailing service. Highly recommend!",
+    },
+];
 
 
 export {
@@ -164,4 +243,5 @@ export {
     statistics,
     services,
     treatments,
+    testimonials,
 }
