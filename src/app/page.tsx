@@ -1,4 +1,4 @@
-import { GetStarted, HeroSection, Services, Statistics, Testimonials, VipTreatment } from "@/components";
+import { AboutUs, GetStarted, HeroSection, Services, Statistics, Testimonials, VipTreatment } from "@/components";
 import Faqs from '../components/home/Faqs';
 
 
@@ -14,6 +14,7 @@ const Home = () => {
       <Testimonials />
       <Faqs />
       <GetStarted />
+      <AboutUs />
     </div>
   );
 }

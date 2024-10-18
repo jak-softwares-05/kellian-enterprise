@@ -10,6 +10,7 @@ import VipTreatment from './home/VipTreatment';
 import Testimonials from './home/Testimonials';
 import Faqs from './home/Faqs';
 import GetStarted from './home/GetStarted';
+import AboutUs from './home/AboutUs';
 
 
 
@@ -26,4 +27,5 @@ export {
     Testimonials,
     Faqs,
     GetStarted,
+    AboutUs,
 }
