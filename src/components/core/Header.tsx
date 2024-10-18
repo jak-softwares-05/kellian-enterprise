@@ -63,7 +63,7 @@ const Header: React.FC = () => {
                     <Button asChild className='lg:text-xl'>
                         <Link href={""}>Book a service</Link>
                     </Button>
-                    <ThemeToggler />
+                    {/* <ThemeToggler /> */}
                 </div>
                 <button className="lg:hidden" onClick={toggleMenu}>
                     {isMenuOpen ? <IoClose size={24} /> : <BiMenu size={24} />}
