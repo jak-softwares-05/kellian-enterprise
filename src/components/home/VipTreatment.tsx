@@ -6,15 +6,15 @@ import React from 'react'
 
 const VipTreatment = () => {
     return (
-        <div className='space-y-10'>
+        <div className='space-y-20 py-24'>
             <h2 className='text-customBlue text-center text-4xl md:text-6xl'>Your car deserves <span className='text-primary'>THE VIP TREATMENT</span></h2>
 
-            <div className='flex justify-between gap-5 flex-col lg:flex-row'>
+            <div className='flex justify-between gap-5 flex-col lg:flex-row lg:w-4/5 lg:mx-auto'>
                 <Image
                     src={"/home/vip-treatment.png"}
                     alt='Man spray washing car'
-                    width={700}
-                    height={200}
+                    width={500}
+                    height={300}
                     className='rounded-xl'
                 />
 
@@ -48,8 +48,8 @@ const VipTreatmentCard: React.FC<VipTreatmentCardProps> = ({
                 height={150}
             />
             <div>
-                <h3 className='text-customBlue font-semibold lg:text-5xl'>{title}</h3>
-                <p className='lg:text-2xl'>{description}</p>
+                <h3 className='text-customBlue font-semibold lg:text-2xl'>{title}</h3>
+                <p>{description}</p>
             </div>
         </li>
     );

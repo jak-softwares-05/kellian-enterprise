@@ -13,7 +13,7 @@ const Services = () => {
             <div className='text-center space-y-5'>
                 <h2 className='text-primary md:text-xl'>OUR SERVICES</h2>
                 <p className='text-customBlue text-4xl md:text-6xl'>Top-Notch Services for Every Car</p>
-                <p className='text-xl lg:text-3xl'>
+                <p className='lg:text-xl'>
                     Kellian Garage provides everything your vehicle needs, from expert repairs to routine maintenance.
                     Trust our skilled team to keep your car in peak condition, inside and out.
                 </p>
