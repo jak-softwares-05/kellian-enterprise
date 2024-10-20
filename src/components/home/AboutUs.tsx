@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 const AboutUs = () => {
     return (
-        <div className='space-y-5 px-5 lg:px-32 py-20'>
+        <div className='space-y-5 px-5 xl:px-32 py-20'>
 
             <div className='flex flex-col items-center lg:flex-row lg:w-4/5 lg:mx-auto gap-5 lg:gap-0'>
                 <div>

@@ -7,7 +7,7 @@ const Home = () => {
     <div className="space-y-10">
       <HeroSection />
       <BookAServiceModal />
-      <main className="px-5 lg:px-32 space-y-20">
+      <main className="px-5 lg:px-2 xl:px-32 space-y-20">
         <Statistics />
         <Services />
         <VipTreatment />

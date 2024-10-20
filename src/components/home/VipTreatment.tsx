@@ -9,7 +9,7 @@ const VipTreatment = () => {
         <div className='space-y-20 py-24'>
             <h2 className='text-customBlue text-center text-4xl md:text-6xl'>Your car deserves <span className='text-primary'>THE VIP TREATMENT</span></h2>
 
-            <div className='flex justify-between gap-5 flex-col lg:flex-row lg:w-4/5 lg:mx-auto'>
+            <div className='flex justify-between items-center gap-5 flex-col lg:flex-row lg:w-4/5 lg:mx-auto'>
                 <Image
                     src={"/home/vip-treatment.png"}
                     alt='Man spray washing car'
