@@ -1,11 +1,16 @@
+"use client";
 import React from 'react'
 import BlackOverlay from '../core/BlackOverlay';
 import { Button } from '../ui/button';
 import Link from 'next/link';
 import { siteConfig } from '@/lib/site-config';
+import { useModal } from '@/hooks/use-modal';
 
 
 const HeroSection = () => {
+    const {openModal} = useModal();
+
+
     return (
         <div className="relative overflow-hidden">
             <BlackOverlay />
@@ -23,7 +28,7 @@ const HeroSection = () => {
                         </p>
                     </div>
                     <div className='space-x-5'>
-                        <Button asChild className='lg:text-xl'>
+                        <Button asChild className='lg:text-xl' onClick={openModal}>
                             <Link href={""}>Book a service</Link>
                         </Button>
                         <Button className='bg-slate-200 text-black lg:text-xl hover:bg-slate-100'>

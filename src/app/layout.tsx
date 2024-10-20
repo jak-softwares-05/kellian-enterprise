@@ -5,6 +5,7 @@ import { Fira_Sans } from "next/font/google";
 import { Toaster } from "@/components/ui/toaster";
 import { Footer, Header } from "@/components";
 import { ThemeProvider } from "@/components/core/utils/ThemeProvider";
+import { ModalProvider } from "@/hooks/use-modal";
 
 const firaSans = Fira_Sans({
   weight: ['200', '400', '700'],
@@ -28,11 +29,13 @@ const RootLayout = ({
           enableSystem
           disableTransitionOnChange
         >
-          <Header />
-          <div className="flex-grow mt-12 lg:mt-24">
-            {children}
-          </div>
-          <Footer />
+          <ModalProvider>
+            <Header />
+            <div className="flex-grow mt-12 lg:mt-24">
+              {children}
+            </div>
+            <Footer />
+          </ModalProvider>
           <Toaster />
         </ThemeProvider>
       </body>

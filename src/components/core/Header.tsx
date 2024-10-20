@@ -9,12 +9,15 @@ import { BiMenu } from 'react-icons/bi';
 import { IoClose } from 'react-icons/io5';
 import SiteLogo from './SiteLogo';
 import ThemeToggler from './utils/ThemeToggler';
+import { useModal } from '@/hooks/use-modal';
 
 
 const Header: React.FC = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isScrolling, setIsScrolling] = useState(false);
     const headerRef = useRef<HTMLElement>(null);
+
+    const { openModal } = useModal();
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
@@ -60,7 +63,7 @@ const Header: React.FC = () => {
                     ))}
                 </nav>
                 <div className='hidden lg:items-center lg:justify-center lg:flex'>
-                    <Button asChild className='lg:text-xl'>
+                    <Button asChild className='lg:text-xl' onClick={openModal}>
                         <Link href={""}>Book a service</Link>
                     </Button>
                     {/* <ThemeToggler /> */}

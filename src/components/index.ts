@@ -11,7 +11,9 @@ import Testimonials from './home/Testimonials';
 import Faqs from './home/Faqs';
 import GetStarted from './home/GetStarted';
 import AboutUs from './home/AboutUs';
-
+import BookAServiceModal from './home/BookAServiceModal';
+import DropDownWithOptionsProp from './core/utils/DropDownWithOptionsProp';
+import DateTimePicker from './core/utils/date-time-picker/DateTimePicker';
 
 
 export {
@@ -28,4 +30,7 @@ export {
     Faqs,
     GetStarted,
     AboutUs,
+    BookAServiceModal,
+    DropDownWithOptionsProp,
+    DateTimePicker,
 }
