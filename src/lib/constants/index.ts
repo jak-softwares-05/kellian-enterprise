@@ -4,10 +4,6 @@ import { T_NavLink, T_BasicSomething, T_Social, T_Statistic, T_Faq } from "../ty
 
 const navLinks: T_NavLink[] = [
     {
-        name: "HOME",
-        link: siteConfig.siteLinks.home,
-    },
-    {
         name: "SERVICES",
         link: siteConfig.siteLinks.servicesSection,
     },
